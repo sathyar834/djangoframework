@@ -4574,3 +4574,52 @@ ERROR 2021-02-12 11:09:57,276 basehttp "POST /createscp/ HTTP/1.1" 500 128617
 INFO 2021-02-12 11:10:36,218 updatedscript Attaching SCP policy
 INFO 2021-02-12 11:10:38,329 updatedscript Policy attached Successfully
 INFO 2021-02-12 11:10:38,332 basehttp "POST /attachscp/ HTTP/1.1" 200 28
+INFO 2021-02-12 22:33:27,375 autoreload Watching for file changes with StatReloader
+WARNING 2021-02-12 22:33:36,942 log Not Found: /
+WARNING 2021-02-12 22:33:36,952 basehttp "GET / HTTP/1.1" 404 3403
+WARNING 2021-02-12 22:33:37,163 log Not Found: /favicon.ico
+WARNING 2021-02-12 22:33:37,165 basehttp "GET /favicon.ico HTTP/1.1" 404 3454
+INFO 2021-02-12 22:33:57,176 updatedscript Listing the roots of the AWS account
+INFO 2021-02-12 22:33:58,477 updatedscript RootId: r-oblp
+INFO 2021-02-12 22:33:58,478 basehttp "GET /listroot/ HTTP/1.1" 200 17
+INFO 2021-02-12 22:34:08,301 updatedscript Listing all the SCP policies of the AWS account
+INFO 2021-02-12 22:34:09,329 updatedscript SCP Policies: {
+    "FullAWSAccess": "p-FullAWSAccess",
+    "aws-guardrails-VFUhZd": "p-q2a02sf3",
+    "CentralAccountSCP": "p-5u9i5eak",
+    "djangoscptest3": "p-0r26xbf3",
+    "flaskscp3test": "p-9njznm1p",
+    "Deny Lambda for Sathya Account": "p-jqsvu76h",
+    "djangoscptest2": "p-d3sw5vws",
+    "djangoscptest": "p-8g3i7v48",
+    "check1scppolicy": "p-ek3zkp3k",
+    "vscodeguardrail": "p-ar2zgzq0",
+    "LoggingAccountSCP": "p-9zu7pf7q",
+    "updatecodescp": "p-yu185bwm",
+    "dummyscpcustom": "p-19pubvdo",
+    "guardrail1": "p-rhl1ep2e",
+    "guardcheck": "p-x9hvnjbe",
+    "aws-guardrails-JSnQmo": "p-ipoj0jae",
+    "guardcheckstring": "p-i3x8djjv",
+    "flaskscp2test": "p-iaew1ydr",
+    "flaskscp1test": "p-6nfnwt3c",
+    "aws-guardrails-WKptKO": "p-pn9eaoz0"
+}
+INFO 2021-02-12 22:34:09,330 basehttp "GET /listscp/ HTTP/1.1" 200 760
+INFO 2021-02-13 19:51:20,273 autoreload Watching for file changes with StatReloader
+WARNING 2021-02-13 20:10:16,927 log Not Found: /listroots/
+WARNING 2021-02-13 20:10:40,589 log Not Found: /listroots/
+WARNING 2021-02-13 20:10:40,589 basehttp "POST /listroots/ HTTP/1.1" 404 3452
+WARNING 2021-02-13 20:10:57,907 log Method Not Allowed: /listroot/
+WARNING 2021-02-13 20:10:57,907 basehttp "POST /listroot/ HTTP/1.1" 405 41
+INFO 2021-02-13 20:11:03,371 updatedscript Listing the roots of the AWS account
+INFO 2021-02-13 20:11:04,499 updatedscript RootId: r-oblp
+INFO 2021-02-13 20:11:04,500 basehttp "GET /listroot/ HTTP/1.1" 200 17
+INFO 2021-02-13 20:11:25,697 updatedscript Listing the roots of the AWS account
+INFO 2021-02-13 20:11:26,740 updatedscript RootId: r-oblp
+INFO 2021-02-13 21:24:59,532 updatedscript Listing the roots of the AWS account
+INFO 2021-02-13 21:25:00,634 updatedscript RootId: r-oblp
+INFO 2021-02-16 21:01:04,717 updatedscript Listing the roots of the AWS account
+INFO 2021-02-16 21:01:05,843 updatedscript RootId: r-oblp
+INFO 2021-02-16 21:01:24,702 updatedscript Listing the roots of the AWS account
+INFO 2021-02-16 21:01:25,808 updatedscript RootId: r-oblp
